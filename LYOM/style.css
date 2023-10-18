@@ -1,0 +1,59 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 80px 0;
+  background: url('https://images.unsplash.com/photo-1619983081563-430f63602796?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=1887') center center/cover no-repeat;
+  color: white;
+  font-family: 'Helvetica', sans-serif;
+}
+
+header h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+.verse, .chorus {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+.verse h2, .chorus h2 {
+  font-family: 'Georgia', serif;
+  font-size: 1.4em;
+  color: #333;
+}
+
+.verse p, .chorus p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.emphasize {
+  font-style: italic;
+  color: #0074b8; /* Dark blue for emphasis */
+}
+
+.shout {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #d9534f; /* Red for intensity */
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9em;
+  color: #777;
+}
